@@ -55,9 +55,20 @@ a {
 
 .banner-img {
    padding: 60px;
-   max-width: 400px;
-   max-height: 200px;
    background-color: rgba(104, 104, 104, 0.75);
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 3px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.banner-button {
+    border: 0;
+    margin-top: 10px;
 }
 
 footer {
