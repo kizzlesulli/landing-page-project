@@ -4,6 +4,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+p {
+    margin: 0px;
+}
+
 header, footer, .banner {
     display: flex;
     background-color: #1F2937;
@@ -12,7 +16,7 @@ header, footer, .banner {
 
 header {
     justify-content: space-between;
-    padding: 10px 60px 0 60px;
+    padding: 10px 75px 0 75px;
 }
 
 .header-logo {
@@ -36,7 +40,7 @@ a {
 
 .banner {
     justify-content: space-around;
-    padding: 60px;
+    padding: 75px;
     gap: 20px
 }
 
@@ -69,6 +73,38 @@ button {
 .banner-button {
     border: 0;
     margin-top: 10px;
+}
+
+.top-heading {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+}
+
+.top-tiles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+    padding: 0 75px 75px 75px;
+}
+
+.box {
+    border-color: #3882f6;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 125px;
+    height: 125px;
+}
+
+.tile-info {
+    width: 125px;
+    height: auto;
+    text-align: center;
+    margin-top: 5px;
 }
 
 footer {
