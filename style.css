@@ -1,7 +1,9 @@
 body {
+    display: flex;
     height: 100vh;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
 }
 
 p {
@@ -17,6 +19,7 @@ header, footer, .banner {
 header {
     justify-content: space-between;
     padding: 10px 75px 0 75px;
+    gap: 20px;
 }
 
 .header-logo {
@@ -87,6 +90,7 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 10px;
     padding: 0 75px 75px 75px;
 }
 
@@ -100,6 +104,7 @@ button {
 }
 
 .tile-info {
+    color: #1F2937;
     width: 125px;
     height: auto;
     text-align: center;
